@@ -6,7 +6,7 @@ iosevka.override {
     family = "Iosevka M";
     spacing = "term";
     serifs = "sans";
-    noCvSs = true;
+    noCvSs = false;
     exportGlyphNames = true;
 
     variants.inherits = "ss04";
@@ -19,30 +19,36 @@ iosevka.override {
 
     ligations.inherits = "dlig";
 
-    weights.Regular = {
-      shape = 400;
-      menu = 400;
-      css = 400;
-    };
+    widths = {
+      Condensed = {
+        shape = 456;
+        menu = 3;
+        css = "condensed";
+      };
 
-    weights.Bold = {
-      shape = 700;
-      menu = 700;
-      css = 700;
-    };
+      Normal = {
+        shape = 600;
+        menu = 5;
+        css = "normal";
+      };
 
-    slopes.Upright = {
-      angle = 0;
-      shape = "upright";
-      menu = "upright";
-      css = "normal";
-    };
+      SemiCondensed = {
+        shape = 548;
+        menu = 4;
+        css = "semi-condensed";
+      };
 
-    slopes.Italic = {
-      angle = 9.4;
-      shape = "italic";
-      menu = "italic";
-      css = "italic";
+      SemiExtended = {
+        shape = 658;
+        menu = 6;
+        css = "semi-expanded";
+      };
+
+      Extended = {
+        shape = 720;
+        menu = 7;
+        css = "expanded";
+      };
     };
   };
 }
