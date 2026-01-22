@@ -16,6 +16,7 @@ iosevka.override {
       punctuation-dot = "round";
       braille-dot = "round";
       brace = "curly";
+      underscore = "above-baseline";
     };
 
     ligations.inherits = "dlig";
