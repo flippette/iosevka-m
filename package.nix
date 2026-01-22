@@ -19,36 +19,36 @@ iosevka.override {
 
     ligations.inherits = "dlig";
 
-    widths = {
-      Condensed = {
-        shape = 456;
-        menu = 3;
-        css = "condensed";
-      };
+    weights.Regular = {
+      shape = 400;
+      menu = 400;
+      css = 400;
+    };
 
-      Normal = {
-        shape = 600;
-        menu = 5;
-        css = "normal";
-      };
+    weights.SemiBold = {
+      shape = 600;
+      menu = 600;
+      css = 600;
+    };
 
-      SemiCondensed = {
-        shape = 548;
-        menu = 4;
-        css = "semi-condensed";
-      };
+    widths.Normal = {
+      shape = 600;
+      menu = 5;
+      css = "normal";
+    };
 
-      SemiExtended = {
-        shape = 658;
-        menu = 6;
-        css = "semi-expanded";
-      };
+    slopes.Upright = {
+      angle = 0;
+      shape = "upright";
+      menu = "upright";
+      css = "normal";
+    };
 
-      Extended = {
-        shape = 720;
-        menu = 7;
-        css = "expanded";
-      };
+    slopes.Italic = {
+      angle = 9.4;
+      shape = "italic";
+      menu = "italic";
+      css = "italic";
     };
   };
 }
