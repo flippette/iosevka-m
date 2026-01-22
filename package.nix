@@ -15,6 +15,7 @@ iosevka.override {
       diacritic-dot = "round";
       punctuation-dot = "round";
       braille-dot = "round";
+      brace = "curly";
     };
 
     ligations.inherits = "dlig";
@@ -32,7 +33,7 @@ iosevka.override {
     };
 
     widths.Normal = {
-      shape = 470;
+      shape = 480;
       menu = 5;
       css = "normal";
     };
