@@ -32,8 +32,8 @@ iosevka.override {
     };
 
     widths.Normal = {
-      shape = 416;
-      menu = 4;
+      shape = 470;
+      menu = 5;
       css = "normal";
     };
 
