@@ -25,10 +25,16 @@ iosevka.override {
       css = 400;
     };
 
-    weights.SemiBold = {
+    weights.Bold = {
       shape = 600;
       menu = 600;
       css = 600;
+    };
+
+    widths.Normal = {
+      shape = 416;
+      menu = 4;
+      css = "normal";
     };
 
     slopes.Upright = {
