@@ -31,12 +31,6 @@ iosevka.override {
       css = 600;
     };
 
-    widths.Normal = {
-      shape = 600;
-      menu = 5;
-      css = "normal";
-    };
-
     slopes.Upright = {
       angle = 0;
       shape = "upright";
