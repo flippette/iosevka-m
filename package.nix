@@ -39,6 +39,14 @@ iosevka.override {
       "kern-bars"
 
       "center-ops"
+      "center-op-trigger-plus-minus-l"
+      "center-op-trigger-plus-minus-r"
+      "center-op-trigger-equal-l"
+      "center-op-trigger-equal-r"
+      "center-op-trigger-bar-l"
+      "center-op-trigger-bar-r"
+      "center-op-trigger-angle-inside"
+      "center-op-trigger-angle-outside"
       "center-op-influence-colon"
 
       "tilde-tilde"
