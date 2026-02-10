@@ -19,7 +19,48 @@ iosevka.override {
       underscore = "above-baseline";
     };
 
-    ligations.inherits = "dlig";
+    ligations.enables = [
+      "arrow-l"
+      "arrow-r"
+      "arrow-lr"
+      "counter-arrow-l"
+      "counter-arrow-r"
+
+      "eqeq"
+      "lteq"
+      "gteq"
+      "exeq"
+
+      "trig"
+      "ltgt-diamond"
+      "ltgt-slash-tag"
+
+      "brst"
+      "slash-asterisk"
+
+      "kern-dotty"
+      "kern-bars"
+
+      "center-ops"
+
+      "tilde-tilde"
+      "minus-minus-minus"
+      "plus-plus-plus"
+      "underscore-underscore-underscore"
+      "hash-hash"
+
+      "logic"
+
+      "llgg"
+
+      "html-comment"
+
+      "colon-greater-as-colon-arrow"
+    ];
+
+    ligations.disables = [
+      "center-op-influence-dot"
+    ];
 
     weights.Regular = {
       shape = 400;
