@@ -23,8 +23,6 @@ iosevka.override {
       "arrow-l"
       "arrow-r"
       "arrow-lr"
-      "counter-arrow-l"
-      "counter-arrow-r"
 
       "eqeq"
       "lteq"
@@ -32,16 +30,16 @@ iosevka.override {
       "exeq"
 
       "trig"
-      "ltgt-diamond"
+      "ltgt-diamond-tag"
       "ltgt-slash-tag"
 
-      "brst"
       "slash-asterisk"
 
       "kern-dotty"
       "kern-bars"
 
       "center-ops"
+      "center-op-influence-colon"
 
       "tilde-tilde"
       "minus-minus-minus"
@@ -49,17 +47,10 @@ iosevka.override {
       "underscore-underscore-underscore"
       "hash-hash"
 
-      "logic"
-
       "llgg"
+      "llggeq"
 
       "html-comment"
-
-      "colon-greater-as-colon-arrow"
-    ];
-
-    ligations.disables = [
-      "center-op-influence-dot"
     ];
 
     weights.Regular = {
